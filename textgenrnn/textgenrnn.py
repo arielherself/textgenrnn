@@ -10,7 +10,8 @@ from sklearn.manifold import TSNE
 from sklearn.metrics.pairwise import cosine_similarity
 from sklearn.preprocessing import LabelBinarizer
 from tensorflow import config as config
-from tensorflow.compat.v1.keras.backend import set_session
+# from tensorflow.compat.v1.keras.backend import set_session
+from keras.backend import set_session
 from tensorflow.keras.callbacks import LearningRateScheduler
 from tensorflow.keras.models import Model
 from tensorflow.keras.optimizers import Adam
